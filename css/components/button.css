@@ -1,0 +1,38 @@
+.btn-red {
+	background-color: red;
+	padding: 10px; 
+	border-radius: 4px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	box-shadow: 0px 10px 15px rgba(0,0,0,0.2);
+	margin-right: 20px;
+}
+
+.btn-red:hover{
+	background-color: transparent;
+	color: #15c165;
+	border: solid 2px #15c165;
+	box-shadow: 0px 10px 30px rgba(38,125,57,0.7);
+}
+
+#btn-nav {
+	background-color: red;
+	padding: 10px; 
+	border-radius: 4px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+	box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+	margin-top: 14px;
+	margin-left: 10px;
+}
+
+#btn-nav:hover{
+	box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+	padding: 0.6em;
+}
+
+#btn-nav i {
+	padding: 1px;
+	color: white;
+}

@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700);
+ @import url("components/container.css");
+ @import url("components/avatar.css");
+ @import url(components/button.css);
+ @import url(components/banner.css);
+@import url(components/card.css);
+@import url(components/header.css);
+
+body{
+	font-family: 'lora', serif; 
+	font-size: 19px;
+	margin: 0px;
+    padding: 0px;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif; 
+	font-weight: bold; 
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+h3 {
+    color: red;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    color: red;
+}
+
+a {
+	text-decoration: none;
+}
+
+i {
+    font-size: 25px;
+}
+
+/*Custom design class */
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.flex p {
+    text-align: justify;
+}
+
+.flex img {
+    width : 300px;
+}
+
+
+
+/* Specific Design with ID */ 
+
+#arrow {
+    color: black;
+}
+
+ #full-width1 {
+    padding: 30px;
+    background-color: white;
+    margin-bottom: 30px
+}
+
+ #full-width2 {
+    padding: 30px;
+    background-color: rgba(230,230,230,0.25);
+    margin-bottom: 30px;
+}
+
+  #full-width3 {
+    padding: 30px;
+    background-color: white;
+    margin-bottom: 30px
+}
+
+ #full-width4 {
+    padding: 30px;
+    background-color: rgba(230,230,230,0.25);
+    margin-bottom: 30px;

@@ -1,0 +1,36 @@
+.banner {
+	background-image: linear-gradient(-225deg, rgba(0,0,0,1.3) 0%, rgba(0,0,0,0.4) 50%) , url(../../images/background.jpeg);
+	color: yellow;
+	padding: 180px 0px;
+	background-size: cover;
+	background-position: center;
+	margin-top: 0px;
+}
+
+.banner .btn-green {
+	margin-top: 15px;
+	padding: 15px 20px;
+}
+
+.container-banner {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 500px;
+	margin-left: 200px;
+}
+
+/* Specific design with ID */ 
+
+#h1banner {
+	font-size: 50px;
+	margin: 0 auto;
+}
+
+
+#h2banner {
+	font-size: 30px;
+	font-weight: lighter;
+	opacity: 0.8;
+	margin: 30px auto;
+	text-align: left;
+}

@@ -1,0 +1,57 @@
+header {
+	background-color: white;
+	height: 75px;
+	margin: 0px;
+	width: 100%;
+	position: fixed;
+	box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+}
+
+header .logo {
+	float: left;
+	height: inherit;
+	margin-left: 2em;
+}
+
+header .nav {
+	padding-right: 50px;
+}
+
+header ul {
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+} 
+
+header ul li{
+	float: left;
+	position :relative;
+}
+
+/* header ul li:hover ul { 
+	display: block;
+} */
+
+
+header ul li a {
+	display: block;
+	padding: 25px;
+}
+
+/* .menu:hover{
+	color: #15c165;
+	font-size: 0.95em;
+	transition: 0.12s;
+} */
+
+header .toggle {
+	display: none;
+	margin: 5px
+	color: black;
+}
+
+
+
+
+
